@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="SendCommand">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CommStr" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ColorType" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SendCommandResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SendCommandResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AGVSendCmd">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="positionId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="wayBillNo" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ColorType" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AGVSendCmdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AGVSendCmdResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ECSendCmd">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CommStr" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ColorType" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ECSendCmdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ECSendCmdResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SendCommandSoapIn">
+    <wsdl:part name="parameters" element="tns:SendCommand" />
+  </wsdl:message>
+  <wsdl:message name="SendCommandSoapOut">
+    <wsdl:part name="parameters" element="tns:SendCommandResponse" />
+  </wsdl:message>
+  <wsdl:message name="AGVSendCmdSoapIn">
+    <wsdl:part name="parameters" element="tns:AGVSendCmd" />
+  </wsdl:message>
+  <wsdl:message name="AGVSendCmdSoapOut">
+    <wsdl:part name="parameters" element="tns:AGVSendCmdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ECSendCmdSoapIn">
+    <wsdl:part name="parameters" element="tns:ECSendCmd" />
+  </wsdl:message>
+  <wsdl:message name="ECSendCmdSoapOut">
+    <wsdl:part name="parameters" element="tns:ECSendCmdResponse" />
+  </wsdl:message>
+  <wsdl:portType name="videocallsSoap">
+    <wsdl:operation name="SendCommand">
+      <wsdl:input message="tns:SendCommandSoapIn" />
+      <wsdl:output message="tns:SendCommandSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AGVSendCmd">
+      <wsdl:input message="tns:AGVSendCmdSoapIn" />
+      <wsdl:output message="tns:AGVSendCmdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ECSendCmd">
+      <wsdl:input message="tns:ECSendCmdSoapIn" />
+      <wsdl:output message="tns:ECSendCmdSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="videocallsSoap" type="tns:videocallsSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SendCommand">
+      <soap:operation soapAction="http://tempuri.org/SendCommand" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AGVSendCmd">
+      <soap:operation soapAction="http://tempuri.org/AGVSendCmd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ECSendCmd">
+      <soap:operation soapAction="http://tempuri.org/ECSendCmd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="videocallsSoap12" type="tns:videocallsSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SendCommand">
+      <soap12:operation soapAction="http://tempuri.org/SendCommand" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AGVSendCmd">
+      <soap12:operation soapAction="http://tempuri.org/AGVSendCmd" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ECSendCmd">
+      <soap12:operation soapAction="http://tempuri.org/ECSendCmd" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="videocalls">
+    <wsdl:port name="videocallsSoap" binding="tns:videocallsSoap">
+      <soap:address location="http://172.16.1.101/MonitoringService/videocalls.asmx" />
+    </wsdl:port>
+    <wsdl:port name="videocallsSoap12" binding="tns:videocallsSoap12">
+      <soap12:address location="http://172.16.1.101/MonitoringService/videocalls.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

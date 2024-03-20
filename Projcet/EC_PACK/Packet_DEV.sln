@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EC_PACK", "Packet_DEV\EC_PACK.vbproj", "{24A5BCC3-9DB1-4D69-8299-C48A05312C9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24A5BCC3-9DB1-4D69-8299-C48A05312C9F}.Debug|x86.ActiveCfg = Debug|x86
+		{24A5BCC3-9DB1-4D69-8299-C48A05312C9F}.Debug|x86.Build.0 = Debug|x86
+		{24A5BCC3-9DB1-4D69-8299-C48A05312C9F}.Release|x86.ActiveCfg = Release|x86
+		{24A5BCC3-9DB1-4D69-8299-C48A05312C9F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
