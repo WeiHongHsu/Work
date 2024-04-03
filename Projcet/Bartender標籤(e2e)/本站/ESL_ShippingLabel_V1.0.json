@@ -1,0 +1,14 @@
+﻿[
+	{
+		"waybill_number": "2302060099",
+		"carton_label": "2302060099",
+		"ship_to_code": "B028",
+		"ship_to_description": "",
+		"ship_to_name": "宋仲基",
+		"cust_po_number": "202301098792101",
+		"display_order_number": "202301098792101",
+		"printer_id": "Ec_192.168.19.2",
+		"FilePath_bak": "D:\\Bartender\\Log Files\\ESL_ShippingLabel_202301098792101_20230118172333.Json",
+		"BTW_Label": "D:\\Bartender\\Format\\ESL_ShippingLabel_V1.0.btw"
+	}
+]

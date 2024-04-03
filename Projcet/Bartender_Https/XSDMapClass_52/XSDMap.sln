@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "XSDMap", "XSDMap.sqlproj", "{6227FBA7-8A09-458F-AD1A-D0E3EE56867D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6227FBA7-8A09-458F-AD1A-D0E3EE56867D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6227FBA7-8A09-458F-AD1A-D0E3EE56867D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6227FBA7-8A09-458F-AD1A-D0E3EE56867D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6227FBA7-8A09-458F-AD1A-D0E3EE56867D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6227FBA7-8A09-458F-AD1A-D0E3EE56867D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6227FBA7-8A09-458F-AD1A-D0E3EE56867D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0DDA02EA-6984-480B-978A-FCC96104DAE3}
+	EndGlobalSection
+EndGlobal

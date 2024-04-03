@@ -1,0 +1,16 @@
+D:\DEV\SQLCLR\EDI\XSDMap\XSDMap\bin\Debug\infXSD.dll
+D:\DEV\SQLCLR\EDI\XSDMap\XSDMap\bin\Debug\infXSD.pdb
+D:\DEV\SQLCLR\EDI\XSDMap\XSDMap\obj\Debug\infXSD.dll
+D:\DEV\SQLCLR\EDI\XSDMap\XSDMap\obj\Debug\infXSD.pdb
+D:\SJOB\SQLCLR\發行版本\XSDMap\XSDMap\bin\Debug\infXSD.dll
+D:\SJOB\SQLCLR\發行版本\XSDMap\XSDMap\bin\Debug\infXSD.pdb
+D:\SJOB\SQLCLR\發行版本\XSDMap\XSDMap\obj\Debug\infXSD.dll
+D:\SJOB\SQLCLR\發行版本\XSDMap\XSDMap\obj\Debug\infXSD.pdb
+D:\DEV\SQLCLR\Debug\XSDMap\XSDMap\bin\Debug\infXSD.dll
+D:\DEV\SQLCLR\Debug\XSDMap\XSDMap\bin\Debug\infXSD.pdb
+D:\DEV\SQLCLR\Debug\XSDMap\XSDMap\obj\Debug\infXSD.dll
+D:\DEV\SQLCLR\Debug\XSDMap\XSDMap\obj\Debug\infXSD.pdb
+D:\DEV\SQLCLR\Debug\XSDMap\XSDMap190605\bin\Debug\infXSD.dll
+D:\DEV\SQLCLR\Debug\XSDMap\XSDMap190605\obj\Debug\infXSD.dll
+D:\DEV\SQLCLR\Debug\XSDMap\XSDMap190605\bin\Debug\infXSD.pdb
+D:\DEV\SQLCLR\Debug\XSDMap\XSDMap190605\obj\Debug\infXSD.pdb

@@ -1,0 +1,91 @@
+﻿<IntegrationFile Version="10" ID="fbf273f2-6883-4b44-8dd5-e51fb5ac1222">
+  <ActionGroup ID="5150c4e0-50f0-494c-9d01-82305a221218" RunMethod="Sequential" MessagingEnabled="false">
+    <Actions>
+      <WebRequestIntegration Name="Json_STD_HTTPS" IgnoreErrors="true" ID="21e382a6-a1f2-4aa7-a8f5-908d4220afa0" Port="443" ServiceName="Json_STD_HTTPS" EnableHttps="true" CertificateThumbprint="9ABE44553A4368AE84C9A74B549C34BCDA0C0DE9">
+        <ActionGroup ID="25bf9ec8-1324-4c7b-8f72-6d194bcce0e6" RunMethod="Sequential" MessagingEnabled="false">
+          <Actions>
+            <SetVariablesAction Name="設定多重變數" IgnoreErrors="false" ID="8f8f2be4-ecbd-4eb6-a3fd-d8dbfd4b7d62">
+              <Variables>
+                <Variable Name="BTW_Label" Type="System.String">
+                  <Value>&lt;%;&#xD;
+var obj = JSON.parse(EventData);&#xD;
+obj[0].BTW_Label;&#xD;
+;%&gt;</Value>
+                </Variable>
+                <Variable Name="FilePath_bak" Type="System.String">
+                  <Value>&lt;%;&#xD;
+var obj = JSON.parse(EventData);&#xD;
+obj[0].FilePath_bak;&#xD;
+;%&gt;</Value>
+                </Variable>
+                <Variable Name="printer_id" Type="System.String">
+                  <Value>&lt;%;&#xD;
+var obj = JSON.parse(EventData);&#xD;
+obj[0].printer_id;&#xD;
+;%&gt;</Value>
+                </Variable>
+              </Variables>
+            </SetVariablesAction>
+            <PrintAction Name="列印文件" IgnoreErrors="false" ID="ecf814c2-c180-41cf-a053-e14d75109ae9" ReturnPrintData="true" ReturnPrintSummary="true" SaveAfterPrint="false" Printer="%printer_id%" CopiesPerSerialNumber="1">
+              <DocumentFile Path="%BTW_Label%">
+                <FileSystem.System />
+              </DocumentFile>
+              <RecordSets Type="VariableName" DataSourceVariableName="EventData" />
+              <PrintToFileFolder Path="%IntegrationFileNameWithoutExtension%">
+                <FileSystem.Temporary />
+              </PrintToFileFolder>
+            </PrintAction>
+            <SaveFileAction Name="寫入檔案" IgnoreErrors="false" ID="88f2cb06-7000-4056-8bab-58539164f212">
+              <Source>
+                <Value>%EventData%</Value>
+              </Source>
+              <File Path="%FilePath_bak%">
+                <FileSystem.System />
+              </File>
+            </SaveFileAction>
+          </Actions>
+        </ActionGroup>
+        <ResponseHeaders />
+        <ResponseData>
+          <Value>%Response%</Value>
+        </ResponseData>
+      </WebRequestIntegration>
+    </Actions>
+  </ActionGroup>
+  <Metadata>
+    <Properties>
+      <Properties Name="MostRecentlyUsedVariables" Type="System.String">
+        <Value>EventData</Value>
+      </Properties>
+      <Properties Name="SelectedDeploymentConfiguration" Type="System.String">
+        <Value>測試</Value>
+      </Properties>
+      <Properties Name="SelectedIntegration" Type="System.Int32">
+        <Value>0</Value>
+      </Properties>
+      <Properties Name="SelectedOptionsPage" Type="System.String">
+        <Value>0;0</Value>
+      </Properties>
+    </Properties>
+  </Metadata>
+  <SourcePath>D:\IntegrationFile\測試\Json_STD_HTTPS.btin</SourcePath>
+  <IsPrinting>false</IsPrinting>
+  <IsPrintPreview>false</IsPrintPreview>
+  <DeploymentConfigurations>
+    <DeploymentConfiguration CancelIfIntegrationFileExistsOnTargetServer="false">
+      <Name>測試</Name>
+      <DeploymentName>Json_STD_HTTPS</DeploymentName>
+      <TargetServers>
+        <TargetServer Name="This Computer" Description="" IsServerGroup="false" />
+      </TargetServers>
+      <DeploymentSchedule Method="Immediately" />
+    </DeploymentConfiguration>
+    <DeploymentConfiguration CancelIfIntegrationFileExistsOnTargetServer="false">
+      <Name>生產</Name>
+      <TargetServers>
+        <TargetServer Name="This Computer" Description="" IsServerGroup="false" />
+      </TargetServers>
+      <DeploymentSchedule Method="OnSpecifiedDate" />
+    </DeploymentConfiguration>
+  </DeploymentConfigurations>
+</IntegrationFile>

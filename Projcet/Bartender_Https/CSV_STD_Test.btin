@@ -1,0 +1,135 @@
+﻿<IntegrationFile Version="10" ID="8dd45466-2e08-46ed-845f-82bab9e0a220">
+  <ActionGroup ID="46491a05-9583-46fe-870d-1d7b1f03dd69" RunMethod="Sequential" MessagingEnabled="false">
+    <Actions>
+      <WebRequestIntegration Name="CSV_STD" IgnoreErrors="true" ID="717e4bab-c5ea-4e87-9123-aa11620037c9" Port="443" ServiceName="CSV_STD" ResponseFormat="Json" EnableHttps="true" CertificateThumbprint="DAFAD172F004B2D7617331127F62EFEFDF81B477">
+        <Variables>
+          <Variable Name="FilePath_bak" Type="System.String">
+            <Value></Value>
+          </Variable>
+          <Variable Name="PDF_Path" Type="System.String">
+            <Value></Value>
+          </Variable>
+          <Variable Name="printer_id" Type="System.String">
+            <Value></Value>
+          </Variable>
+          <Variable Name="Variable1" Type="System.String">
+            <Value></Value>
+          </Variable>
+          <Variable Name="Variable2" Type="System.String">
+            <Value></Value>
+          </Variable>
+        </Variables>
+        <ActionGroup ID="a1ac6943-563a-45d7-be8c-56573b2298dd" RunMethod="Sequential" MessagingEnabled="false">
+          <Actions>
+            <TransformTextToRecordSetAction Name="將文字轉換為記錄集" IgnoreErrors="false" ID="ede1ee1c-7bd6-4178-8a08-5a7b02d864a4">
+              <ConnectionInfo>&lt;?xml version="1.0" encoding="utf-8"?&gt;&#xD;
+&lt;DatabaseSetup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;&#xD;
+  &lt;DatabaseConnections&gt;&#xD;
+    &lt;DatabaseConnection Name="@2" Type="TextFile"&gt;codepage=65001;pathname=D:\Bartender\Format\HJ_RPT_ShipList_EC_FEDEX_V1.0.Csv;format=CSV;field count=16;first record is header=True&lt;/DatabaseConnection&gt;&#xD;
+  &lt;/DatabaseConnections&gt;&#xD;
+  &lt;RecordSets&gt;&#xD;
+    &lt;RecordSet Name="HJ_RPT_ShipList_EC_FEDEX_V1.0" Connection="@2" Primary="true"&gt;&#xD;
+      &lt;SelectCommand Custom="false"&gt;SELECT * FROM [HJ_RPT_ShipList_EC_FEDEX_V1.0]&lt;/SelectCommand&gt;&#xD;
+      &lt;ProviderParameters&gt;&lt;/ProviderParameters&gt;&#xD;
+      &lt;LastKnownSchema&gt;&#xD;
+        &lt;Field Name="[HJ_RPT_ShipList_EC_FEDEX_V1.0].[HJ_RPT_ShipList_EC_FEDEX_V1.0].[COL01]" Type="Decimal" /&gt;&#xD;
+        &lt;Field Name="[HJ_RPT_ShipList_EC_FEDEX_V1.0].[HJ_RPT_ShipList_EC_FEDEX_V1.0].[COL02]" Type="Decimal" /&gt;&#xD;
+        &lt;Field Name="[HJ_RPT_ShipList_EC_FEDEX_V1.0].[HJ_RPT_ShipList_EC_FEDEX_V1.0].[COL03]" Type="Int32" /&gt;&#xD;
+        &lt;Field Name="[HJ_RPT_ShipList_EC_FEDEX_V1.0].[HJ_RPT_ShipList_EC_FEDEX_V1.0].[COL04]" Type="String" /&gt;&#xD;
+        &lt;Field Name="[HJ_RPT_ShipList_EC_FEDEX_V1.0].[HJ_RPT_ShipList_EC_FEDEX_V1.0].[COL05]" Type="Decimal" /&gt;&#xD;
+        &lt;Field Name="[HJ_RPT_ShipList_EC_FEDEX_V1.0].[HJ_RPT_ShipList_EC_FEDEX_V1.0].[COL06]" Type="Decimal" /&gt;&#xD;
+        &lt;Field Name="[HJ_RPT_ShipList_EC_FEDEX_V1.0].[HJ_RPT_ShipList_EC_FEDEX_V1.0].[COL07]" Type="String" /&gt;&#xD;
+        &lt;Field Name="[HJ_RPT_ShipList_EC_FEDEX_V1.0].[HJ_RPT_ShipList_EC_FEDEX_V1.0].[COL08]" Type="String" /&gt;&#xD;
+        &lt;Field Name="[HJ_RPT_ShipList_EC_FEDEX_V1.0].[HJ_RPT_ShipList_EC_FEDEX_V1.0].[COL09]" Type="DateTime" /&gt;&#xD;
+        &lt;Field Name="[HJ_RPT_ShipList_EC_FEDEX_V1.0].[HJ_RPT_ShipList_EC_FEDEX_V1.0].[COL10]" Type="String" /&gt;&#xD;
+        &lt;Field Name="[HJ_RPT_ShipList_EC_FEDEX_V1.0].[HJ_RPT_ShipList_EC_FEDEX_V1.0].[COL11]" Type="Int32" /&gt;&#xD;
+        &lt;Field Name="[HJ_RPT_ShipList_EC_FEDEX_V1.0].[HJ_RPT_ShipList_EC_FEDEX_V1.0].[COL12]" Type="Decimal" /&gt;&#xD;
+        &lt;Field Name="[HJ_RPT_ShipList_EC_FEDEX_V1.0].[HJ_RPT_ShipList_EC_FEDEX_V1.0].[COL13]" Type="Decimal" /&gt;&#xD;
+        &lt;Field Name="[HJ_RPT_ShipList_EC_FEDEX_V1.0].[HJ_RPT_ShipList_EC_FEDEX_V1.0].[printer_id]" Type="String" /&gt;&#xD;
+        &lt;Field Name="[HJ_RPT_ShipList_EC_FEDEX_V1.0].[HJ_RPT_ShipList_EC_FEDEX_V1.0].[FilePath_bak]" Type="String" /&gt;&#xD;
+        &lt;Field Name="[HJ_RPT_ShipList_EC_FEDEX_V1.0].[HJ_RPT_ShipList_EC_FEDEX_V1.0].[BTW_Label]" Type="String" /&gt;&#xD;
+      &lt;/LastKnownSchema&gt;&#xD;
+    &lt;/RecordSet&gt;&#xD;
+  &lt;/RecordSets&gt;&#xD;
+&lt;/DatabaseSetup&gt;</ConnectionInfo>
+              <Text>
+                <Value>%InitialEventData%</Value>
+              </Text>
+            </TransformTextToRecordSetAction>
+            <ForEachDatabaseRecordAction Name="針對每一筆資料庫記錄" ID="0bd1a885-a0d4-4efc-b090-e0df3dfe6fa2" RunMethod="Sequential" MessagingEnabled="false">
+              <RecordSet.DataTarget>
+                <Value>%EventData%</Value>
+              </RecordSet.DataTarget>
+            </ForEachDatabaseRecordAction>
+            <PrintAction Name="Print to printer" IgnoreErrors="false" ID="b4467727-9edd-40b7-9604-509d6f58969f" ReturnPrintData="true" ReturnPrintSummary="true" CloseDocumentAfterPrint="true" Printer="PDF" CopiesPerSerialNumber="1" PrintToFileNameVariable="PDF_Path" PrintToFileFileName="Test.pdf" MakeUniqueOutputFile="false">
+              <DocumentFile Path="%BTW_Label%">
+                <FileSystem.System />
+              </DocumentFile>
+              <RecordSets Type="VariableName" DataSourceVariableName="InitialEventData" />
+              <PrintToFileFolder Path="C:\Users\delen\Desktop">
+                <FileSystem.System />
+              </PrintToFileFolder>
+            </PrintAction>
+            <PrintAction Name="列印文件 2" IgnoreErrors="false" ID="c8ce6b22-808e-453a-b190-3415255e9d9e" SaveAfterPrint="false" Printer="%printer_id%" CopiesPerSerialNumber="1">
+              <DocumentFile Path="%BTW_Label%">
+                <FileSystem.System />
+              </DocumentFile>
+              <RecordSets Type="VariableName" DataSourceVariableName="InitialEventData" />
+              <PrintToFileFolder Path="%IntegrationFileNameWithoutExtension%">
+                <FileSystem.Temporary />
+              </PrintToFileFolder>
+            </PrintAction>
+            <SaveFileAction Name="寫入檔案" IgnoreErrors="false" ID="ec0ceae4-0829-46fc-b617-930ba838376c">
+              <Source>
+                <Value>%InitialEventData%</Value>
+              </Source>
+              <File Path="%FilePath_bak%">
+                <FileSystem.System />
+              </File>
+            </SaveFileAction>
+          </Actions>
+        </ActionGroup>
+        <ContentData ContentDataType="JsonVariables" />
+        <ResponseHeaders />
+        <ResponseData>
+          <Value>%Response%</Value>
+        </ResponseData>
+      </WebRequestIntegration>
+    </Actions>
+  </ActionGroup>
+  <Metadata>
+    <Properties>
+      <Properties Name="MostRecentlyUsedVariables" Type="System.String">
+        <Value>InitialEventData;EventData</Value>
+      </Properties>
+      <Properties Name="SelectedDeploymentConfiguration" Type="System.String">
+        <Value>生產</Value>
+      </Properties>
+      <Properties Name="SelectedIntegration" Type="System.Int32">
+        <Value>0</Value>
+      </Properties>
+      <Properties Name="SelectedOptionsPage" Type="System.String">
+        <Value>0;0</Value>
+      </Properties>
+    </Properties>
+  </Metadata>
+  <SourcePath>D:\1_客戶資料\C_誠品物流\CSV_STD_Test.btin</SourcePath>
+  <IsPrinting>false</IsPrinting>
+  <IsPrintPreview>false</IsPrintPreview>
+  <DeploymentConfigurations>
+    <DeploymentConfiguration CancelIfIntegrationFileExistsOnTargetServer="false">
+      <Name>測試</Name>
+      <TargetServers>
+        <TargetServer Name="This Computer" Description="" IsServerGroup="false" />
+      </TargetServers>
+      <DeploymentSchedule Method="Immediately" />
+    </DeploymentConfiguration>
+    <DeploymentConfiguration CancelIfIntegrationFileExistsOnTargetServer="false">
+      <Name>生產</Name>
+      <TargetServers>
+        <TargetServer Name="This Computer" Description="" IsServerGroup="false" />
+      </TargetServers>
+      <DeploymentSchedule Method="OnSpecifiedDate" />
+    </DeploymentConfiguration>
+  </DeploymentConfigurations>
+</IntegrationFile>

@@ -1,0 +1,34 @@
+﻿** 反白顯示
+     將重建的資料表
+       無
+     將卸除的叢集索引
+       無
+     將建立的叢集索引
+       無
+     資料可能的問題
+       無
+
+** 使用者動作
+     卸除
+       [dbo].[XsdBulkCopy] (函式)
+       [dbo].[XsdQueryExp] (函式)
+       [infXSD] (組件)
+     建立
+       [infXSD] (組件)
+       [dbo].[XsdBulkCopy] (函式)
+       [dbo].[XsdQueryExp] (函式)
+
+** 支援動作
+     卸除
+       [dbo].[CLR_Qhtm] (函式)
+       [dbo].[EDI_Decrypt] (函式)
+       [dbo].[EDI_Encrypt] (函式)
+       [dbo].[EDIinfxSDView] (程序)
+     建立
+       [dbo].[CLR_Qhtm] (函式)
+       [dbo].[EDI_Decrypt] (函式)
+       [dbo].[EDI_Encrypt] (函式)
+       [dbo].[EDIinfxSDView] (程序)
+
+專案和目標資料庫的定序設定不同。可能發生部署錯誤。
+

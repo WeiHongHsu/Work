@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TargetDatabase>SJOB</TargetDatabase>
+    <StartupScript>(空白)</StartupScript>
+    <StartAction>StartNone</StartAction>
+    <ScriptDatabaseOptions>False</ScriptDatabaseOptions>
+    <TargetConnectionString>Data Source=192.168.1.121;Initial Catalog=SJOB;Persist Security Info=True;User ID=DBLINK_Owner;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=True</TargetConnectionString>
+    <ReferencePath>C:\Windows\Microsoft.NET\Framework\v3.5\</ReferencePath>
+    <NoAlterStatementsToChangeCLRTypes>True</NoAlterStatementsToChangeCLRTypes>
+    <BlockOnPossibleDataLoss>True</BlockOnPossibleDataLoss>
+    <AllowIncompatiblePlatform>True</AllowIncompatiblePlatform>
+    <DoNotAlterReplicatedObjects>False</DoNotAlterReplicatedObjects>
+  </PropertyGroup>
+</Project>

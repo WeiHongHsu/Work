@@ -1,0 +1,156 @@
+印表機名稱	佇列狀態	佇列中的工作	位置	註解	伺服器名稱	驅動程式名稱	驅動程式版本	驅動程式類型
+TSC TTP-247 (重新導向 4)	就緒	0			Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+TSC TTP-244M Pro_1 (重新導向 4)	就緒	0			Bartender1 (本機)	TSC TTP-244M Pro	2022.3.0.0	類型 3 - 使用者模式
+TSC TTP-244 Pro (重新導向 4)	就緒	0			Bartender1 (本機)	TSC TTP-244 Pro	2022.3.0.0	類型 3 - 使用者模式
+TSC MB240 (重新導向 4)	就緒	0			Bartender1 (本機)	TSC MB240	2022.3.0.0	類型 3 - 使用者模式
+TSC Alpha-2R (重新導向 4)	就緒	0			Bartender1 (本機)	TSC Alpha-2R	2022.3.0.0	類型 3 - 使用者模式
+PR_192.168.19.5_5.5X6	就緒	0	1F 到貨登記站	常態使用 / SNMP : Disable	Bartender1 (本機)	TSC Alpha-2R	2022.3.0.0	類型 3 - 使用者模式
+PR_192.168.19.4_5.5X6	就緒	0	1F 到貨登記站	常態使用 / SNMP : Disable	Bartender1 (本機)	TSC Alpha-2R	2022.3.0.0	類型 3 - 使用者模式
+PR_192.168.19.180_5.5X6	就緒	0	2F IT測試標籤機3	非常態使用 / SNMP : Enable	Bartender1 (本機)	Honeywell RP2	2023.1.0.0	類型 3 - 使用者模式
+NPI5125E9 (HP LaserJet M402dn)	就緒	0			Bartender1 (本機)	HP LaserJet Pro M402-M403 n-dne PCL 6	8.0.1329.6488	類型 3 - 使用者模式
+Microsoft XPS Document Writer (重新導向 4)	就緒	0			Bartender1 (本機)	Microsoft XPS Document Writer v4	10.0.14393.0	類型 4 - 使用者模式
+Microsoft XPS Document Writer	就緒	0			Bartender1 (本機)	Microsoft XPS Document Writer v4	10.0.14393.0	類型 4 - 使用者模式
+Microsoft Print to PDF (重新導向 4)	就緒	0			Bartender1 (本機)	Microsoft Print To PDF	10.0.14393.0	類型 4 - 使用者模式
+Microsoft Print to PDF	就緒	0			Bartender1 (本機)	Microsoft Print To PDF	10.0.14393.0	類型 4 - 使用者模式
+Fax (重新導向 4)	就緒	0			Bartender1 (本機)	Microsoft Shared Fax Driver	10.0.14393.6167	類型 3 - 使用者模式
+Ec_192.168.19.222	就緒	0	4F 驗放站09	常態使用 / SNMP : Disable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Ec_192.168.19.220	就緒	0	4F 驗放站10	常態使用 / SNMP : Disable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Ec_192.168.19.218	就緒	0	4F 驗放站11	常態使用 / SNMP : Disable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Ec_192.168.19.216	就緒	0	4F 驗放站12	常態使用 / SNMP : Disable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Ec_192.168.19.214	就緒	0	4F 驗放站13	常態使用 / SNMP : Disable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Ec_192.168.19.212	就緒	0	4F 驗放站14	常態使用 / SNMP : Disable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Ec_192.168.19.210	就緒	0	4F 驗放站15	常態使用 / SNMP : Disable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Ec_192.168.19.208	就緒	0	4F 驗放站16	常態使用 / SNMP : Disable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Ec_192.168.19.206	就緒	0	4F 驗放站17	常態使用 / SNMP : Disable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Ec_192.168.19.204	就緒	0	4F 驗放站18	常態使用 / SNMP : Disable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Ec_192.168.19.202	就緒	0	4F 驗放站19	常態使用 / SNMP : Disable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Ec_192.168.19.200	就緒	0	4F 驗放站20	常態使用 / SNMP : Disable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+EC_192.168.19.2	就緒	0	2F 標籤測試機	IT_TEST / SNMP : Disable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+EC_192.168.19.195	就緒	0	4F 驗放站17	常態使用 / SNMP : Disable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Ec_192.168.19.184	就緒	0	4F 備援工作站一	備援工作站 / SNMP : Disable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Ec_192.168.19.140	離線	0	3F  驗放站6	備援機，非常態使用 / SNMP : Enable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Ec_192.168.19.138	離線	0	3F  驗放站5	備援機，非常態使用 / SNMP : Enable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Ec_192.168.19.136	離線	0	3F 驗放站4	備援機，非常態使用 / SNMP : Enable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Ec_192.168.19.134	離線	0	3F 驗放站3	備援機，非常態使用 / SNMP : Enable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Ec_192.168.19.132	離線	0	3F 驗放站2	備援機，非常態使用 / SNMP : Enable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+EC_192.168.19.130	離線	0	3F 驗放站1	備援機，非常態使用 / SNMP : Enable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Ec_192.168.19.114	就緒	0	4F 驗放站01	常態使用 / SNMP : Disable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Ec_192.168.19.112	錯誤	1	4F 驗放站02	常態使用 / SNMP : Disable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Ec_192.168.19.110	就緒	0	4F 驗放站03	常態使用 / SNMP : Disable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Ec_192.168.19.108	就緒	0	4F 驗放站04	常態使用 / SNMP : Disable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Ec_192.168.19.106	就緒	0	4F 驗放站05	常態使用 / SNMP : Disable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Ec_192.168.19.104	就緒	0	4F 驗放站06	常態使用 / SNMP : Disable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Ec_192.168.19.102	就緒	0	4F 驗放站07	常態使用 / SNMP : Disable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Ec_192.168.19.100	就緒	0	4F 驗放08	常態使用 / SNMP : Disable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+Cb_192.168.19.97	就緒	0	5F 驗放站8	常態使用 / SNMP : Disable	Bartender1 (本機)	TOSHIBA B-EX6T1 (305 dpi)	2022.1.0.0	類型 3 - 使用者模式
+Cb_192.168.19.95	就緒	0	5F 驗放站7	常態使用 / SNMP : Disable	Bartender1 (本機)	TOSHIBA B-EX6T1 (305 dpi)	2022.1.0.0	類型 3 - 使用者模式
+Cb_192.168.19.93	就緒	0	5F 驗放站6	常態使用 / SNMP : Disable	Bartender1 (本機)	TOSHIBA B-EX6T1 (305 dpi)	2022.1.0.0	類型 3 - 使用者模式
+Cb_192.168.19.91	就緒	0	5F 驗放站5	常態使用 / SNMP : Disable	Bartender1 (本機)	TOSHIBA B-EX6T1 (305 dpi)	2022.1.0.0	類型 3 - 使用者模式
+Cb_192.168.19.89	就緒	0	5F 驗放站4	常態使用 / SNMP : Disable	Bartender1 (本機)	TOSHIBA B-EX6T1 (305 dpi)	2022.1.0.0	類型 3 - 使用者模式
+Cb_192.168.19.87	就緒	0	5F 驗放站3	常態使用 / SNMP : Disable	Bartender1 (本機)	Honeywell PX6ie (300 dpi)	2023.1.0.0	類型 3 - 使用者模式
+Cb_192.168.19.85	就緒	0	5F 驗放站2	常態使用 / SNMP : Enable	Bartender1 (本機)	TOSHIBA B-EX6T1 (305 dpi)	2022.1.0.0	類型 3 - 使用者模式
+Cb_192.168.19.30	就緒	0	1F 人工退貨2	常態使用 / SNMP : Disable	Bartender1 (本機)	TEC B-SX5T (305 dpi)	2022.1.0.0	類型 3 - 使用者模式
+Cb_192.168.19.28	就緒	0	1F 人工退貨1	常態使用 / SNMP : Enable	Bartender1 (本機)	TEC B-SX5T (305 dpi)	2022.1.0.0	類型 3 - 使用者模式
+Cb_192.168.19.231	就緒	0	5F 伊織鋼平台	非常態使用 / SNMP : Enable	Bartender1 (本機)	TOSHIBA B-EX6T1 (305 dpi)	2022.1.0.0	類型 3 - 使用者模式
+CB_192.168.19.228	就緒	0	5F 進貨	常態使用 / SNMP : Enable	Bartender1 (本機)	HP LaserJet Pro M402-M403 n-dne PCL 6	8.0.1329.6488	類型 3 - 使用者模式
+Cb_192.168.19.197	就緒	0	1F 列印海外箱標籤	常態使用 / SNMP : Disable	Bartender1 (本機)	TEC B-SX5T (305 dpi)	2022.1.0.0	類型 3 - 使用者模式
+Cb_192.168.19.194	就緒	0	4F 驗放站20	常態使用 / SNMP : Enable	Bartender1 (本機)	TOSHIBA B-EX6T1 (305 dpi)	2022.1.0.0	類型 3 - 使用者模式
+Cb_192.168.19.193	就緒	0	4F 驗放站19	常態使用 / SNMP : Enable	Bartender1 (本機)	TOSHIBA B-EX6T1 (305 dpi)	2022.1.0.0	類型 3 - 使用者模式
+Cb_192.168.19.192	離線	0	4F 驗放站18	非常態使用 / SNMP : Enable 	Bartender1 (本機)	TOSHIBA B-EX6T1 (305 dpi)	2022.1.0.0	類型 3 - 使用者模式
+CB_192.168.19.181	就緒	0	1F 退貨區	常態使用 / SNMP : Disable	Bartender1 (本機)	TSC TTP-247	2022.3.0.0	類型 3 - 使用者模式
+CB_192.168.19.161	就緒	0	2F 大標籤測試機	IT_TEST / SNMP : Disable	Bartender1 (本機)	Honeywell PM42 (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+Cb_192.168.19.148	離線	0	3F 驗放站2	備援機，非常態使用 / SNMP : Enable	Bartender1 (本機)	TOSHIBA B-EX6T1 (305 dpi)	2022.1.0.0	類型 3 - 使用者模式
+Cb_192.168.19.147	就緒	0	3F 驗放站1	備援機，非常態使用 / SNMP : Enable	Bartender1 (本機)	Honeywell PX6ie (300 dpi)	2023.1.0.0	類型 3 - 使用者模式
+Cb_192.168.19.146	就緒	0	3F 食品倉2	常態使用 / SNMP : Disable	Bartender1 (本機)	TOSHIBA B-EX6T1 (305 dpi)	2022.1.0.0	類型 3 - 使用者模式
+Cb_192.168.19.12	就緒	0	1F 差異劃單 (現場行政座位右側)	常態使用 / SNMP : Disable	Bartender1 (本機)	TEC B-SX5T (305 dpi)	2022.1.0.0	類型 3 - 使用者模式
+CB_192.168.19.118	就緒	0	2F 測試機	常態使用 / SNMP : Disable	Bartender1 (本機)	Honeywell PM42 (300 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+CB_192.168.19.117	離線	0	2F IT測試標籤機1	IT_TEST / SNMP : Enable	Bartender1 (本機)	TSC MB240	2022.3.0.0	類型 3 - 使用者模式
+CB_192.168.19.116	就緒	0	5F OA	SNMP : Enable;OWNER:字妍潔	Bartender1 (本機)	HP LaserJet Pro M404-M405 PCL 6 (V3)	8.0.1329.6884	類型 3 - 使用者模式
+Cb_192.168.19.11	就緒	0	2F IT測試標籤機	非常態使用 / SNMP : Disable	Bartender1 (本機)	TSC MB240	2022.3.0.0	類型 3 - 使用者模式
+Cb_192.168.19.10	就緒	0	1F 差異劃單 (近Sorter)	非常態使用 / SNMP : Disable 	Bartender1 (本機)	TEC B-EX6T1-T	2022.1.0.0	類型 3 - 使用者模式
+A4_Print (重新導向 4)	就緒	0			Bartender1 (本機)	HP LaserJet Pro M404-M405 PCL-6 (V4)	8.0.1329.6884	類型 4 - 使用者模式
+A4_192.168.19.96	就緒	0	5F 驗放站8	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.94	就緒	0	5F 驗放站7	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.92	就緒	0	5F 驗放站6	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.90	就緒	0	5F 驗放站5	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.88	就緒	0	5F 驗放站4	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.86	就緒	0	5F 驗放站3	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.84	就緒	0	5F 驗放站2	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.82	就緒	0	5F 驗放站1	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.81 (重新導向 4)	就緒	0			Bartender1 (本機)	HP LaserJet Pro M404-M405 PCL-6 (V4)	8.0.1329.6884	類型 4 - 使用者模式
+A4_192.168.19.81	就緒	0	2F 辦公室(A4測試機)	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.76	就緒	0	1F 箱明細驗放站6	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.75	就緒	0	1F 箱明細驗放站5	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.74	就緒	0	1F 箱明細驗放站4	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.73	碳粉/墨水不足	0	1F 箱明細驗放站3	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.72	就緒	0	1F 箱明細驗放站2	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.71	離線	0	1F 箱明細驗放站1	非常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.70	就緒	0	1F 加工辦公區	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.49	離線	0	5F 驗放站14	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.48	離線	0	5F 驗放站13	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.47	離線	0	5F 驗放站12	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.46	離線	0	5F 驗放站11	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.29	就緒	0	1F 人工退貨2	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.27	就緒	0	1F 箱明細驗放站6	常態使用 / SNMP : Disable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.223	就緒	0	4F 驗放站09	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.221	就緒	0	4F 驗放站10	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.219	就緒	0	4F 驗放站11	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.217	就緒	0	4F 驗放站12	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.215	就緒	0	4F 驗放站13	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.213	就緒	0	4F 驗放站14	常態使用 / SNMP : Enable	Bartender1 (本機)	HP LaserJet Pro M404-M405 PCL 6 (V3)	8.0.1329.6884	類型 3 - 使用者模式
+A4_192.168.19.211	就緒	0	4F 驗放站15	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.209	離線	0	4F 驗放站16	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.207	就緒	0	4F 驗放站17	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.205	就緒	0	4F 驗放站18	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.203	離線	0	4F 驗放站19	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.201	就緒	0	4F 驗放站20	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.191	就緒	0	3F 自製品區	常態使用 / SNMP : Enable	Bartender1 (本機)	HP LaserJet Pro MFP M125-M126 PCLmS	11.21.0.2679	類型 3 - 使用者模式
+A4_192.168.19.185	紙張用完	4	4F 備援工作站一	備援工作站 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.179	就緒	0	1F 差異劃單左側第二台	非常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.178	就緒	0	1F 差異劃單左側第一台	非常態使用 / SNMP : Enable	Bartender1 (本機)	HP LaserJet Pro M404-M405 PCL 6 (V3)	8.0.1329.6884	類型 3 - 使用者模式
+A4_192.168.19.174	就緒	0	1F 收發室黃麗如	常態使用 / SNMP : Enable	Bartender1 (本機)	HP LaserJet Pro M402-M403 n-dne PCL 6	8.0.1329.6488	類型 3 - 使用者模式
+A4_192.168.19.150	就緒	0	3F 食品倉1	備援機，非常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.143	離線	0	3F 食品倉2	備援機，非常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.139	離線	0	3F 驗放站5	備援機，非常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.137	離線	0	3F 驗放站4	備援機，非常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.135	離線	0	3F 驗放站3	備援機，非常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.133	離線	0	3F 驗放站2	備援機，非常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.131	離線	0	3F 驗放站1	備援機，非常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.129	離線	0	1F 退貨	非常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.115	就緒	0	4F 驗放站01	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.113	就緒	0	4F 驗放站02	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.111	就緒	0	4F 驗放站03	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.109	就緒	0	4F 驗放站04	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.107	就緒	0	4F 驗放站05	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.105	就緒	0	4F 驗放站06	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.103	離線	0	4F 驗放站07	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A4_192.168.19.101	就緒	0	4F 驗放站08	常態使用 / SNMP : Enable	Bartender1 (本機)	HP Universal Printing PCL 6 (v7.0.1)	61.255.1.24923	類型 3 - 使用者模式
+A16_192.168.19.68	離線	0	4F 驗放站20	常態使用 / SNMP : Enable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.67	離線	0	4F 驗放站19	常態使用 / SNMP : Enable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.66	就緒	0	4F 驗放站18	非常態使用 / SNMP : Enable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.65	就緒	0	4F 驗放站17	常態使用 / SNMP : Enable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.64	離線	0	4F 驗放站16	非常態使用 / SNMP : Enable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.45	就緒	0	4F 驗放站15	常態使用 / SNMP : Enable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.44	就緒	0	4F 驗放站14	常態使用 / SNMP : Disable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.43	就緒	0	4F 驗放站13	常態使用 / SNMP : Enable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.42	就緒	0	4F 驗放站12	常態使用 / SNMP : Enable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.41	離線	0	4F 驗放站11	非常態使用 / SNMP : Enable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.40	離線	0	4F 驗放站10	非常態使用 / SNMP : Enable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.39	就緒	0	4F 驗放站09	常態使用 / SNMP : Enable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.38	就緒	0	4F 驗放站08	常態使用 / SNMP : Disable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.37	就緒	0	4F 驗放站07	常態使用 / SNMP : Enable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.36	就緒	0	4F 驗放站06	常態使用 / SNMP : Enable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.35	就緒	0	4F 驗放站05	常態使用 / SNMP : Disable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.34	就緒	0	4F 驗放站04	常態使用 / SNMP : Disable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.33	就緒	0	4F 驗放站03	常態使用 / SNMP : Enable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.32	就緒	0	4F 驗放站02	常態使用 / SNMP : Enable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.31	就緒	0	4F 驗放站01	常態使用 / SNMP : Enable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.183	就緒	0	4F 備援工作站一	備援工作站 / SNMP : Enable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.128	離線	0	3F 驗放站06	備援機，非常態使用 / SNMP : Enable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.127	離線	0	3F 驗放站05	備援機，非常態使用 / SNMP : Enable	Bartender1 (本機)	Honeywell PC42t (203 dpi) - DP	2022.2.0.0	類型 3 - 使用者模式
+A16_192.168.19.126	離線	0	3F 驗放站04	備援機，非常態使用 / SNMP : Enable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.125	就緒	0	3F 驗放站03	備援機，非常態使用 / SNMP : Enable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.124	就緒	0	3F 驗放站02	備援機，非常態使用 / SNMP : Enable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.123	離線	0	3F 驗放站01	備援機，非常態使用 / SNMP : Enable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.119	離線	0	2F IT測試標籤機2	IT_TEST / SNMP : Enable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式
+A16_192.168.19.1	就緒	0	2F A16標籤測試機	IT_TEST / SNMP : Enable	Bartender1 (本機)	Intermec PC43t (203 dpi) - DP	2023.1.0.0	類型 3 - 使用者模式

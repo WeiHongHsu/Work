@@ -1,0 +1,9 @@
+憑證：BartenderCert
+密碼：27952966
+DNS：bartender.eslite.com
+對應IP：192.168.1.100 
+
+憑證：Bartender4Cert.pfx
+密碼：es@12345
+DNS：bartender4.eslite.com
+對應IP：192.168.1.104

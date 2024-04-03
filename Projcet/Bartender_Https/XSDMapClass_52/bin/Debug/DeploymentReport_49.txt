@@ -1,0 +1,24 @@
+﻿** 反白顯示
+     將重建的資料表
+       無
+     將卸除的叢集索引
+       無
+     將建立的叢集索引
+       無
+     資料可能的問題
+       無
+
+** 使用者動作
+     建立
+       [infXSD] (組件)
+       [dbo].[EDI_Decrypt] (函式)
+       [dbo].[EDI_Encrypt] (函式)
+       [dbo].[XsdBulkCopy] (函式)
+       [dbo].[XsdQueryExp] (函式)
+       [dbo].[EDIinfxSDView] (程序)
+
+** 支援動作
+
+指定 SQL Server 2016 做為目標平台的專案可能發生與 SQL Server 2008 的相容性問題。
+專案和目標資料庫的定序設定不同。可能發生部署錯誤。
+
