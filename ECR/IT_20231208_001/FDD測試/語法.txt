@@ -1,0 +1,40 @@
+/****** SSMS 中 SelectTopNRows 命令的指令碼  ******/
+SELECT TOP (1000) *
+  FROM [Sapi].[dbo].[SP68]
+ where eben3 like '9200001280%'
+
+ INSERT INTO [192.168.1.121].[Sapi].[dbo].[SP68]
+SELECT * FROM SP68_BK
+ where eben3 like '9200001280%'
+
+ INSERT INTO [192.168.1.121].[iexp].[dbo].[w_Case_S]
+SELECT * FROM w_Case_S where shipment_id='CN-240001'
+
+ INSERT INTO [192.168.1.121].[iexp].[dbo].[w_Cased_S]
+SELECT top 1000 * FROM w_Cased_S where po_number='5040828460'
+
+ --F003 收貨
+Select efile,* from iexp.dbo.W_po with (nolock) where display_po_number = '5040828460'
+Select top 1000 efile,* from iexp.dbo.W_po with (nolock) where efile like '%SP18%'
+Select * from iexp.dbo.W_pod with (nolock) where display_po_number = '5040828460'
+--F003 => B201
+ Select TOP 1000 efile,* from iexp.dbo.W_xso with (nolock) where efile like '%SP18%'
+Select * from iexp.dbo.W_xsod with (nolock) where cust_po_number = '5040828460'
+Select top 1000 * from w_Case_S where shipment_id='CN-240001'
+
+
+
+  declare @_var__ varchar(100) = '%SP68504082846020231229110031.PUB%'
+select top 1000 * from sjob.dbo.jobq with (nolock) where 1=2
+or wkey like @_var__
+or rfkey1 like @_var__
+or rfkey2 like @_var__
+or lotkey1 like @_var__
+or lotkey2 like @_var__
+order by adate desc
+--EX08_CN-240001
+--SP68504082846020231229110031.PUB
+
+D:\SJOB\IMP\SP68088011258620231106171324.PUB
+
+select  @Rntxt=SJOB.dbo.XsdQueryExp('EX08_CASE','EX08_CN-240001.PUB','ESL,CN-240001' ,'D:\SJOB\fmt\xsd\exp\SAP_EX08_CASE_Fmt.xsd' )
